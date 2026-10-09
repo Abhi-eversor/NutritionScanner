@@ -1,0 +1,17 @@
+{
+  "tflite_int8": {
+    "AP50": 0.7166112639674043,
+    "mAP50": 0.7166112639674043,
+    "precision_at_0.5": 0.7741935483870968,
+    "recall_at_0.5": 0.5333333333333333,
+    "f1_at_0.5": 0.631578947368421,
+    "true_positives": 24,
+    "false_positives": 7,
+    "false_negatives": 21,
+    "ground_truth_objects": 45,
+    "detections_for_ap": 821,
+    "mean_iou_true_positives": 0.650404225948245,
+    "images": 45,
+    "mean_inference_ms": 2.0324260887718992
+  }
+}

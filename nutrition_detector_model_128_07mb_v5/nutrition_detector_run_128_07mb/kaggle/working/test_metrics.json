@@ -1,0 +1,62 @@
+{
+  "teacher": {
+    "AP50": 0.9381821869278193,
+    "mAP50": 0.9381821869278193,
+    "precision_at_0.5": 0.9545454545454546,
+    "recall_at_0.5": 0.8677685950413223,
+    "f1_at_0.5": 0.9090909090909091,
+    "true_positives": 105,
+    "false_positives": 5,
+    "false_negatives": 16,
+    "ground_truth_objects": 121,
+    "detections_for_ap": 1629,
+    "mean_iou_true_positives": 0.7917122552960606,
+    "images": 121,
+    "mean_inference_ms": 119.38184415697278
+  },
+  "student_kd": {
+    "AP50": 0.9373805610398016,
+    "mAP50": 0.9373805610398016,
+    "precision_at_0.5": 0.9459459459459459,
+    "recall_at_0.5": 0.8677685950413223,
+    "f1_at_0.5": 0.9051724137931033,
+    "true_positives": 105,
+    "false_positives": 6,
+    "false_negatives": 16,
+    "ground_truth_objects": 121,
+    "detections_for_ap": 2231,
+    "mean_iou_true_positives": 0.7803049297893748,
+    "images": 121,
+    "mean_inference_ms": 118.9879198676457
+  },
+  "pruned": {
+    "AP50": 0.9293035880133909,
+    "mAP50": 0.9293035880133909,
+    "precision_at_0.5": 0.8983050847457628,
+    "recall_at_0.5": 0.8760330578512396,
+    "f1_at_0.5": 0.8870292887029289,
+    "true_positives": 106,
+    "false_positives": 12,
+    "false_negatives": 15,
+    "ground_truth_objects": 121,
+    "detections_for_ap": 2549,
+    "mean_iou_true_positives": 0.7481371760368347,
+    "images": 121,
+    "mean_inference_ms": 116.51031291745493
+  },
+  "tflite_int8": {
+    "AP50": 0.9237473941727714,
+    "mAP50": 0.9237473941727714,
+    "precision_at_0.5": 0.9090909090909091,
+    "recall_at_0.5": 0.9090909090909091,
+    "f1_at_0.5": 0.9090909090909091,
+    "true_positives": 110,
+    "false_positives": 11,
+    "false_negatives": 11,
+    "ground_truth_objects": 121,
+    "detections_for_ap": 1419,
+    "mean_iou_true_positives": 0.7659856210584226,
+    "images": 121,
+    "mean_inference_ms": 2.1727695784948606
+  }
+}

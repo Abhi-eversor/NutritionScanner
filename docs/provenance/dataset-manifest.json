@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "inspected_on": "2026-10-10",
+  "source_workspace": "VCR_Lab",
+  "interpretation": "Local candidate export records and framing counts; historical evaluation dataset identity is not proven. No raw datasets or credential-bearing notebooks are included.",
+  "datasets": [
+    {
+      "source_directory": "test_augment-2",
+      "metadata_files": [
+        {
+          "source_path": "test_augment-2/README.dataset.txt",
+          "repository_path": "docs/provenance/test_augment_v2/README.dataset.txt",
+          "bytes": 144,
+          "sha256": "05091956f366d614ce0dfd85b42648789943459badb69e6df74ac31f3b99da69"
+        },
+        {
+          "source_path": "test_augment-2/README.roboflow.txt",
+          "repository_path": "docs/provenance/test_augment_v2/README.roboflow.txt",
+          "bytes": 1016,
+          "sha256": "ec1eb6ba7b57e905400d3ca2e772090c51a2be0edeada6ab64a1594327383ff9"
+        },
+        {
+          "source_path": "test_augment-2/dataset-metadata.json",
+          "repository_path": "docs/provenance/test_augment_v2/kaggle-dataset-metadata.json",
+          "bytes": 134,
+          "sha256": "310b5659b9af5baafa3705e78d2b85c3e58b7cf2e09cd887c537d82b6437828b"
+        }
+      ],
+      "split_files": [
+        {
+          "source_path": "test_augment-2/train/test_augment.tfrecord",
+          "split": "train",
+          "bytes": 170768890,
+          "sha256": "4d0629750439604e4daac6bae7a2c473420ffbbbb4b3a68dfc4002cd5c386a88",
+          "framed_record_count": 2886,
+          "method": "TFRecord length framing only; protobuf payloads and CRCs not validated"
+        },
+        {
+          "source_path": "test_augment-2/valid/test_augment.tfrecord",
+          "split": "valid",
+          "bytes": 7344466,
+          "sha256": "e53535fcfbc85fe72d2d97b430a958435d846ae042bfb015d0937fc82eb086b6",
+          "framed_record_count": 120,
+          "method": "TFRecord length framing only; protobuf payloads and CRCs not validated"
+        },
+        {
+          "source_path": "test_augment-2/test/test_augment.tfrecord",
+          "split": "test",
+          "bytes": 7699270,
+          "sha256": "a9cef72ccea1ed38f658491a1edacf9800dbb949671f9e936a552c85eaa40b5a",
+          "framed_record_count": 121,
+          "method": "TFRecord length framing only; protobuf payloads and CRCs not validated"
+        }
+      ]
+    },
+    {
+      "source_directory": "Nutrition-Labels-no-augs-2",
+      "metadata_files": [
+        {
+          "source_path": "Nutrition-Labels-no-augs-2/README.dataset.txt",
+          "repository_path": "docs/provenance/nutrition_labels_no_augs_v2/README.dataset.txt",
+          "bytes": 168,
+          "sha256": "d45c9c8fd388ee065baf1497da07e5c18be0e22eacc1e435ac88034e5a9b2db9"
+        },
+        {
+          "source_path": "Nutrition-Labels-no-augs-2/README.roboflow.txt",
+          "repository_path": "docs/provenance/nutrition_labels_no_augs_v2/README.roboflow.txt",
+          "bytes": 1035,
+          "sha256": "c67904788d4363f02551e7908d65d055ee25603cfebfc4ac4276a0e9a91736ba"
+        }
+      ],
+      "split_files": [
+        {
+          "source_path": "Nutrition-Labels-no-augs-2/train/stickers-and-tables.tfrecord",
+          "split": "train",
+          "bytes": 18933570,
+          "sha256": "4c2c30c69ace7fd68ba686aafaf7b1d92e2313815607279706fd21283723d2bb",
+          "framed_record_count": 300,
+          "method": "TFRecord length framing only; protobuf payloads and CRCs not validated"
+        },
+        {
+          "source_path": "Nutrition-Labels-no-augs-2/valid/stickers-and-tables.tfrecord",
+          "split": "valid",
+          "bytes": 3107783,
+          "sha256": "38eb5b441bf7f40864670f9f6f93fe28b5ecbc7a8cb3a0639373f9226e65e1ef",
+          "framed_record_count": 53,
+          "method": "TFRecord length framing only; protobuf payloads and CRCs not validated"
+        },
+        {
+          "source_path": "Nutrition-Labels-no-augs-2/test/stickers-and-tables.tfrecord",
+          "split": "test",
+          "bytes": 2720308,
+          "sha256": "b183a6d8ff9f5c9494af1855cded043589039a56d28b9188b420dca637f92fb3",
+          "framed_record_count": 45,
+          "method": "TFRecord length framing only; protobuf payloads and CRCs not validated"
+        }
+      ]
+    }
+  ]
+}

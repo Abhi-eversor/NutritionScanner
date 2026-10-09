@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "app/src/main/assets/nutrition_detector.tflite",
+      "bytes": 813944,
+      "sha256": "1bcc5d406a9469c9545ad9b1bf7da6e682a09dbf4aa2f391f1460a6656b06e84"
+    },
+    {
+      "path": "NutritionScannerV5Demo/app/src/main/assets/nutrition_label_yolo26s_int8.tflite",
+      "bytes": 10202421,
+      "sha256": "e3dd5b69c48ad1309a932320f60274e6762de062b16b46deb4702084d98e79df"
+    },
+    {
+      "path": "nutrition_detector_model_128_07mb_v5/nutrition_detector_run_128_07mb/kaggle/working/checkpoints/pruned/best_pruned_student.weights.h5",
+      "bytes": 2692128,
+      "sha256": "c4a6da447eec8316f659dc7beaf0f1368bddde98c51a30ee81f0a7a7257e10c1"
+    },
+    {
+      "path": "nutrition_detector_model_128_07mb_v5/nutrition_detector_run_128_07mb/kaggle/working/checkpoints/pruned/pruned_student.keras",
+      "bytes": 2849383,
+      "sha256": "9b70500e01c1ca0ae94fae3614331131d36ae3e39ebd537d8417595bd9d7786b"
+    },
+    {
+      "path": "nutrition_detector_model_128_07mb_v5/nutrition_detector_run_128_07mb/kaggle/working/checkpoints/qat/best_qat.weights.h5",
+      "bytes": 5516816,
+      "sha256": "10301a6370e9e6bd4c0c8e5f083705b2719ede3db5fa07830faf40c1c82974dc"
+    },
+    {
+      "path": "nutrition_detector_model_128_07mb_v5/nutrition_detector_run_128_07mb/kaggle/working/checkpoints/student_kd/best_student.weights.h5",
+      "bytes": 2799680,
+      "sha256": "2753d1d1ed2ce3201ef10801c217ca88561ae653598a0ae3cacedd4427cec52d"
+    },
+    {
+      "path": "nutrition_detector_model_128_07mb_v5/nutrition_detector_run_128_07mb/kaggle/working/checkpoints/student_kd/final_student_ema.weights.h5",
+      "bytes": 2799680,
+      "sha256": "2753d1d1ed2ce3201ef10801c217ca88561ae653598a0ae3cacedd4427cec52d"
+    },
+    {
+      "path": "nutrition_detector_model_128_07mb_v5/nutrition_detector_run_128_07mb/kaggle/working/checkpoints/teacher/best_teacher.weights.h5",
+      "bytes": 25610624,
+      "sha256": "c3cb40e2acbd10ef5b5813d5f25af5a9b1363bb69c11a627c763122644cd0721"
+    },
+    {
+      "path": "nutrition_detector_model_128_07mb_v5/nutrition_detector_run_128_07mb/kaggle/working/external_test_metrics.json",
+      "bytes": 465,
+      "sha256": "5d93cf13a1999bbd7620e3405c093c1d2c378622d4804338ac48e0e879efcb77"
+    },
+    {
+      "path": "nutrition_detector_model_128_07mb_v5/nutrition_detector_run_128_07mb/kaggle/working/nutrition_detector.tflite",
+      "bytes": 813944,
+      "sha256": "1bcc5d406a9469c9545ad9b1bf7da6e682a09dbf4aa2f391f1460a6656b06e84"
+    },
+    {
+      "path": "nutrition_detector_model_128_07mb_v5/nutrition_detector_run_128_07mb/kaggle/working/test_metrics.json",
+      "bytes": 1869,
+      "sha256": "8f27350a7381dd23fb1ef73be5773142ecb8da010a7910c61dc1b6989bc39208"
+    },
+    {
+      "path": "yolo26_training_results2/detect/val/BoxF1_curve.png",
+      "bytes": 101614,
+      "sha256": "b695b52639a45add20b61dbcf86a37511854b96713b82e91889664c823266c55"
+    },
+    {
+      "path": "yolo26_training_results2/detect/val/BoxP_curve.png",
+      "bytes": 90156,
+      "sha256": "de691b5d80a8f1c00b9b12998247eb2f657b3efe7f7481244942e13bb5fb27b0"
+    },
+    {
+      "path": "yolo26_training_results2/detect/val/BoxPR_curve.png",
+      "bytes": 82074,
+      "sha256": "9e97ef83f6f49b486b406132a2773c2236a0b440086b8bc0f16df5504c47e889"
+    },
+    {
+      "path": "yolo26_training_results2/detect/val/BoxR_curve.png",
+      "bytes": 103602,
+      "sha256": "c33c20b954900f443f2b703f1c151ef83a30851147b2d374fcccec9c635e5884"
+    },
+    {
+      "path": "yolo26_training_results2/detect/val/confusion_matrix.png",
+      "bytes": 105576,
+      "sha256": "046638268984b7d160f5587dae510c700ea345c8f907d068107901ffc356844a"
+    },
+    {
+      "path": "yolo26_training_results2/detect/val/confusion_matrix_normalized.png",
+      "bytes": 104235,
+      "sha256": "fd344b518d4c7622860f3a47c6e41fb0a1a1764488fda507305c7ad418bd74ba"
+    },
+    {
+      "path": "yolo26_training_results2/detect/val-2/BoxF1_curve.png",
+      "bytes": 95956,
+      "sha256": "bca33fc82e7fad18a00bbac15e04100934ce6c1189d0c69ad6a7b70a78812656"
+    },
+    {
+      "path": "yolo26_training_results2/detect/val-2/BoxP_curve.png",
+      "bytes": 89864,
+      "sha256": "382a0c0ba9e8420c423165a42e39eb85e782276a210f35e296c53474e24491cc"
+    },
+    {
+      "path": "yolo26_training_results2/detect/val-2/BoxPR_curve.png",
+      "bytes": 81939,
+      "sha256": "b608a1ccb453048ce530b8629606e39069fb49d3cc42efef07fd70c7cdf200a4"
+    },
+    {
+      "path": "yolo26_training_results2/detect/val-2/BoxR_curve.png",
+      "bytes": 97412,
+      "sha256": "4ec0145b4bf0000269121e23c3b6ef4fe75c577d73ae0790002dc73d4eecd1ad"
+    },
+    {
+      "path": "yolo26_training_results2/detect/val-2/confusion_matrix.png",
+      "bytes": 105699,
+      "sha256": "e802b100a5a259ba078afb14ced2bbcd57f22b0079f9037d888948be5060d775"
+    },
+    {
+      "path": "yolo26_training_results2/detect/val-2/confusion_matrix_normalized.png",
+      "bytes": 104240,
+      "sha256": "5e21d3faf258062183575edfaadbbeb6af9da24672afa979f4a5ed2012a6b2f8"
+    },
+    {
+      "path": "yolo26_training_results2/detect/val-3/BoxF1_curve.png",
+      "bytes": 95956,
+      "sha256": "bca33fc82e7fad18a00bbac15e04100934ce6c1189d0c69ad6a7b70a78812656"
+    },
+    {
+      "path": "yolo26_training_results2/detect/val-3/BoxP_curve.png",
+      "bytes": 89864,
+      "sha256": "382a0c0ba9e8420c423165a42e39eb85e782276a210f35e296c53474e24491cc"
+    },
+    {
+      "path": "yolo26_training_results2/detect/val-3/BoxPR_curve.png",
+      "bytes": 81939,
+      "sha256": "b608a1ccb453048ce530b8629606e39069fb49d3cc42efef07fd70c7cdf200a4"
+    },
+    {
+      "path": "yolo26_training_results2/detect/val-3/BoxR_curve.png",
+      "bytes": 97412,
+      "sha256": "4ec0145b4bf0000269121e23c3b6ef4fe75c577d73ae0790002dc73d4eecd1ad"
+    },
+    {
+      "path": "yolo26_training_results2/detect/val-3/confusion_matrix.png",
+      "bytes": 105699,
+      "sha256": "e802b100a5a259ba078afb14ced2bbcd57f22b0079f9037d888948be5060d775"
+    },
+    {
+      "path": "yolo26_training_results2/detect/val-3/confusion_matrix_normalized.png",
+      "bytes": 104240,
+      "sha256": "5e21d3faf258062183575edfaadbbeb6af9da24672afa979f4a5ed2012a6b2f8"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined/args.yaml",
+      "bytes": 1666,
+      "sha256": "51fe64838b0607461404696693ec4ed0396b548dd88e82d840a05f428df49401"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined/labels.jpg",
+      "bytes": 193938,
+      "sha256": "126d20bc424081e1cd7ad14f6e671c05bb361d2b684a91d6017e4384bc5f632d"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined/results.csv",
+      "bytes": 719,
+      "sha256": "4666360fd877277a9582c4015bfa2c3c3700759e1025fddf237da1ac2e1a0d4f"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined-2/args.yaml",
+      "bytes": 1669,
+      "sha256": "efda898a334a8262c0f1c759dfb51930e83d2f93a5196e513bb75fd8d96fdd1c"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined-2/labels.jpg",
+      "bytes": 193938,
+      "sha256": "126d20bc424081e1cd7ad14f6e671c05bb361d2b684a91d6017e4384bc5f632d"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined-2/results.csv",
+      "bytes": 544,
+      "sha256": "4e84e917d5691926d66c9937a67139a3d9dcf5ea8c79971828fed34b8eead7e5"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined-3/args.yaml",
+      "bytes": 1669,
+      "sha256": "98da71e19e45843a841f8826d1b683f1be2bde909b7a0b59f579420f0729a1e2"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined-3/labels.jpg",
+      "bytes": 193938,
+      "sha256": "126d20bc424081e1cd7ad14f6e671c05bb361d2b684a91d6017e4384bc5f632d"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined-3/results.csv",
+      "bytes": 544,
+      "sha256": "08a2fdcb582302a45c3dc8fe4585cb3276d6e9320a1058800f22f129f25c7c6e"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined-4/args.yaml",
+      "bytes": 1669,
+      "sha256": "f34374265e7bf31ebda01cafb8becee08ef0c2034a6005b8f8049c0deef885fb"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined-4/labels.jpg",
+      "bytes": 193938,
+      "sha256": "126d20bc424081e1cd7ad14f6e671c05bb361d2b684a91d6017e4384bc5f632d"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined-5/args.yaml",
+      "bytes": 1669,
+      "sha256": "f7b5537a3dda131740c3d58c9de117741a604b4d9753de0b7bebd803ad796b40"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined-5/BoxF1_curve.png",
+      "bytes": 103057,
+      "sha256": "d8d22ccacd9dc670911ee371de17e88a82bbe9de36547550b8715cab8d5872cc"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined-5/BoxP_curve.png",
+      "bytes": 90564,
+      "sha256": "4be53beb8153b968e92d765d94ecdbcbb35e1e434aecde34084fc059dbb31559"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined-5/BoxPR_curve.png",
+      "bytes": 83644,
+      "sha256": "c4025ba675a41923a799a84d54cb0a7a92c262ffb2f264f3c1184d3793df9bc9"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined-5/BoxR_curve.png",
+      "bytes": 105191,
+      "sha256": "03c939a7f8c6de4a68685c9e0d100f319d4a317273d14ff8872a6aecd74f0612"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined-5/confusion_matrix.png",
+      "bytes": 101100,
+      "sha256": "ad2529e476e3f4e520e2ce0f36d46c33c19c31cc98f4315e852fe570f620f7de"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined-5/confusion_matrix_normalized.png",
+      "bytes": 104121,
+      "sha256": "d58be5730fd285a3fd41f61cab1a0f42b99e404270afdf518529afc0182f1c50"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined-5/labels.jpg",
+      "bytes": 193938,
+      "sha256": "126d20bc424081e1cd7ad14f6e671c05bb361d2b684a91d6017e4384bc5f632d"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined-5/results.csv",
+      "bytes": 22167,
+      "sha256": "adbeaa79244c2d2a4fb046dc04372bfe8f41cc7ce0b2131fccbd2cb1e246b794"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined-5/results.png",
+      "bytes": 282291,
+      "sha256": "a953bfc51437fd20919948364a7ecb456d07431980e25bf283bec3ec7dd0d5a4"
+    },
+    {
+      "path": "yolo26_training_results2/yolo26_combined-5/weights/test_metrics_int8.csv",
+      "bytes": 95,
+      "sha256": "a5936e8fceb040d26c9251a1b83e2b64281e5b1455267910a92bfcae8f89d876"
+    }
+  ]
+}

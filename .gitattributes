@@ -1,0 +1,22 @@
+* text=auto
+* whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Keep wrappers usable across platforms.
+gradlew text eol=lf
+*.bat text eol=crlf
+
+# Preserve research reports byte-for-byte when staging on Windows.
+*.json -text
+*.csv -text
+*.yaml -text
+docs/provenance/** -text
+# Preserve upstream export records, including their original blank lines.
+docs/provenance/**/README.*.txt -whitespace
+
+*.tflite binary
+*.h5 binary
+*.keras binary
+*.jar binary
+*.png binary
+*.jpg binary
+*.webp binary

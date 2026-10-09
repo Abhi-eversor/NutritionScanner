@@ -1,0 +1,49 @@
+# Android and IDE-generated files, including the independent benchmark app.
+*.iml
+.gradle/
+.idea/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+.tools/
+local.properties
+
+# Local credentials and signing material. Commit only blank setup templates.
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.pem
+*.p12
+*.pfx
+*.key
+google-services.json
+kaggle.json
+
+# Python caches and future generated training outputs.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+/nutrition_detector_model_128_07mb_v5/code/output/
+
+# Existing MobileNet experiment checkpoints are retained intentionally.
+# Extra YOLO weights and dataset-image renders are archived outside this repo.
+/yolo26_training_results2/**/weights/*.pt
+/yolo26_training_results2/**/weights/*.tflite
+/yolo26_training_results2/detect/predict*/
+/yolo26_training_results2/**/train_batch*.jpg
+/yolo26_training_results2/**/train_batch*.png
+/yolo26_training_results2/**/val_batch*.jpg
+/yolo26_training_results2/**/val_batch*.png
+
+# Installable packages may embed a locally configured Gemini key.
+*.apk
+*.aab
+*.apks
+
+.DS_Store
+Thumbs.db

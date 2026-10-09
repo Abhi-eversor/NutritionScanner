@@ -1,0 +1,2 @@
+tensorflow-model-optimization>=0.8.0
+tf_keras
