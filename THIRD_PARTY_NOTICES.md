@@ -34,7 +34,7 @@ This table covers direct dependencies identified in the retained source. It
 is not a complete inventory of transitive components embedded in an APK.
 Redistributions must retain the licenses and notices shipped with their
 resolved dependencies, including component-specific notices.
-A copy of [Apache-2.0](THIRD_PARTY_LICENSES/Apache-2.0.txt) accompanies the
+A copy of [Apache-2.0](LICENSE) accompanies the
 bundled Gradle wrappers; its upstream source is
 [the Apache Software Foundation](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
